@@ -1,0 +1,69 @@
+
+.*{
+    padding: 0px;
+    margin: 0px;
+}
+.logo{
+    height: 5vh;
+
+}
+.signin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+.bg-primary {
+    background-color: #73a0f8;
+}
+.input-group-text{
+    background: white;
+    opacity: 0.5;
+}
+.sign-in-button, .btn-f, .btn-g, .btn-e{
+    width: 100%;
+}
+.other-options{
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+.button{
+    height: 5vh;
+}
+.btn-f{
+    background: #3b5998;
+    opacity: 0.8;
+}
+.btn-f:hover{
+    opacity: 1;
+}
+.btn-g{
+    background: #db4a39;
+    opacity: 0.8;
+}
+.btn-g:hover{
+    opacity: 1;
+}
+.btn-e{
+    background: rgb(214, 203, 104);
+    color: white;
+}
+.cus-width{
+    width: 100vh;
+}
+.outer-align{
+    display: flex;
+    justify-content: center;
+}
+.cus-width{
+    margin: 20px;
+}
+
+@media only screen and (max-width: 500px){
+    .outer-align{
+        display: flex;
+    }
+    .custom-width{
+        margin: 0px;
+    }
+}
